@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/onClick"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="35dp"
-        android:text="onClick"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="onClick" />
 
     <Button
         android:id="@+id/keyCycle"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="29dp"
-        android:text="KeyCycle"
-        app:layout_constraintStart_toStartOf="@id/onClick"
-        app:layout_constraintTop_toBottomOf="@id/onClick" />
+        android:text="KeyCycle" />
 
     <Button
         android:id="@+id/keyPosition"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="53dp"
-        android:text="keyPosition"
-        app:layout_constraintEnd_toEndOf="@+id/keyCycle"
-        app:layout_constraintTop_toBottomOf="@+id/keyCycle" />
+        android:text="keyPosition" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/scenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scene,transition,transitionmanager" />
+</LinearLayout>
