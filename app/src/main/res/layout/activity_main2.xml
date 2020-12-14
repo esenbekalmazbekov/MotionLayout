@@ -30,4 +30,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="scene,transition,transitionmanager" />
+
+    <Button
+        android:id="@+id/coordinator1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="coordinator1"/>
+
+    <Button
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="viewpagerheader"/>
 </LinearLayout>

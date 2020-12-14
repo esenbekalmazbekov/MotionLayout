@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".transition.TransitionActivity"></activity>
+        <activity android:name=".viewpager.ViewPagerActivity"></activity>
+        <activity android:name=".coordinators.exapmle1.CoordinatorExaple1Activity" />
+        <activity android:name=".transition.TransitionActivity" />
         <activity android:name=".twoCircle.CircleActivity" />
         <activity android:name=".keyCycle.KeyCycleActivity" />
         <activity android:name=".MainActivity">
